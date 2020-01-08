@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="AddEmp" method="post">
+		Enter Employee Code <input type="text" name="empno"><br>
+		Enter Employee Name <input type="text" name="ename"><br>
+		Select Job Title <input list="Job" name="job"> 
+		<datalist id="Job">
+		<option>Manager</option>
+		<option>Clerk</option>
+		<option>Salesman</option>
+		<option>Analyst</option>
+		<option>President</option>
+		</datalist> <br>
+		Enter Manager ID <input type="text" name="mgr"><br>
+		Select Joining Date <input type="date" name="hiredate"><br>
+		Enter Salary <input type="text" name="sal"><br>
+		Enter Commission <input type="text" name="comm"><br>
+		Enter Department No. <input type="text" name="deptno"><br>
+		<input type="submit">
+	</form>
+</body>
+</html>

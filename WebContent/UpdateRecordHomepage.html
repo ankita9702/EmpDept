@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Update Employee Record</title>
+</head>
+<body>
+<form action="UpdateEmpRecord" method="post">
+	Enter Employee Code <input type="text" name="empno"><br>
+	Select Items to be updated <br> <input type="checkbox" name="item" value="job">Job
+					    Select Job Title <input list="Job" name="job"> 
+						<datalist id="Job">
+						<option>Manager</option>
+						<option>Clerk</option>
+						<option>Salesman</option>
+						<option>Analyst</option>
+						<option>President</option>
+						</datalist> <br>
+					<input type="checkbox" name="item" value="mgr">
+						Enter Manager ID <input type="text" name="mgr"><br>
+					<input type="checkbox" name="item" value="sal">
+						Enter Salary <input type="text" name="sal"><br>
+					<input type="checkbox" name="item" value="comm">
+						Enter Commission <input type="text" name="comm"><br>
+					<input type="checkbox" name="item" value="deptno">
+						Enter Department No. <input type="text" name="deptno"><br>
+		<input type="submit" value="Update Record">
+</form>
+</body>
+</html>

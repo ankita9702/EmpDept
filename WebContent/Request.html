@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Details</title>
+</head>
+<body>
+	<form action="EmployeeRequest" method="post">
+		Enter Employee Name <input type="text" name="empname" required><br>
+		Enter email <input type="email" name="mailid"> <br>
+		Enter date of Joining: <input type="date" name="dateofjoin" required> <br>
+		Select Job Title <input list="Job" name="job"> 
+		<datalist id="Job">
+		<option>Developer</option>
+		<option>Tester</option>
+		<option>Scrum Master</option>
+		</datalist> <br>
+		Enter Salary <input type="text" name="sal"><br>
+		Skills <input type="checkbox" name="skills" value="java">Java
+					<input type="checkbox" name="skills" value="oracle">oracle
+					<input type="checkbox" name="skills" value="spring">spring <br>
+		<input type="submit">
+	</form>	
+</body>
+</html>
